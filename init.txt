@@ -1,0 +1,10 @@
+echo "# SPI-Java" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:linusjf/SPI-Java.git
+git push -u origin main
+git checkout -b development
+git merge main
+git push -u origin development
